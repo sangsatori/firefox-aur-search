@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Arch Linux AUR Search",
+    "version": "2.0",
+    "description": "Search Arch User Repository packages for Arch Linux",
+    "icons": {
+        "64": "icons/archlinux-icon-crystal-64.svg"
+    },
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "AUR packages",
+            "search_url": "https://aur.archlinux.org/packages/?K={searchTerms}",
+            "favicon_url": "https://aur.archlinux.org/images/favicon.ico",
+            "keyword": "aur"
+        }
+    }
+}
