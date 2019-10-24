@@ -1,0 +1,25 @@
+{
+  "name": "firefox-aur-search",
+  "version": "2.0.0",
+  "private": true,
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangsatori/firefox-aur-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sangsatori/firefox-aur-search/issues"
+  },
+  "scripts": {
+    "test": "web-ext lint",
+    "build": "web-ext build --overwrite-dest",
+    "dev": "web-ext run"
+  },
+  "devDependencies": {
+    "web-ext": "^3.1.1"
+  },
+  "webExt": {
+    "sourceDir": "./src",
+    "artifactsDir": "./dist"
+  }
+}
