@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Arch Linux AUR Search",
-    "version": "2.0",
+    "version": "2.0.1",
     "description": "Search Arch User Repository packages for Arch Linux",
     "icons": {
         "64": "icons/archlinux-icon-crystal-64.svg"
@@ -12,6 +12,12 @@
             "search_url": "https://aur.archlinux.org/packages/?K={searchTerms}",
             "favicon_url": "https://aur.archlinux.org/images/favicon.ico",
             "keyword": "aur"
+        }
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{44f82896-ab89-45b2-8c8d-e5b42ba29203}",
+            "strict_min_version": "55.0"
         }
     }
 }
