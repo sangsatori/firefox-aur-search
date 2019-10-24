@@ -2,7 +2,7 @@
   "name": "firefox-aur-search",
   "version": "2.0.1",
   "private": true,
-  "license": "BSD",
+  "license": "(MIT OR CC-BY-NC-SA-3.0)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sangsatori/firefox-aur-search.git"
@@ -10,6 +10,7 @@
   "bugs": {
     "url": "https://github.com/sangsatori/firefox-aur-search/issues"
   },
+  "homepage": "https://addons.mozilla.org/en-US/firefox/addon/arch-linux-aur-search-webext/",
   "scripts": {
     "test": "web-ext lint",
     "build": "web-ext build --overwrite-dest",
@@ -20,6 +21,9 @@
   },
   "webExt": {
     "sourceDir": "./src",
-    "artifactsDir": "./dist"
+    "artifactsDir": "./dist",
+    "ignoreFiles": [
+      "./icons/!(*.svg)"
+    ]
   }
 }
