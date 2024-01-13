@@ -1,4 +1,8 @@
-# Arch Linux AUR package search add-on for Firefox
+# Arch Linux AUR package search add-on for Firefox (DEPRECATED)
+
+Use the more actively developed [extension pack by noraj](https://github.com/noraj/firefox-extension-arch-search) instead.
+
+## Instructions
 
 Install from [AMO](https://addons.mozilla.org/en-US/firefox/addon/arch-linux-aur-search-webext/).
 
